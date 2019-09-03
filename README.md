@@ -1,15 +1,4 @@
-# hello_world
 
-from train import get_classes
-from train import get_anchors
-from train import get_classes
-import sys
-import numpy as np
-from keras.optimizers import Adam
-from train import data_generator_wrapper
-
-
-base_data_path = "/dbfs/FileStore/tables/gtsdb/"
 
 # append to python path
 sys.path.append(base_data_path + "yolo")
